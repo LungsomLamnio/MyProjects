@@ -1,0 +1,44 @@
+.Box {
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    text-align: center;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #879ff9;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: #caf0f8;
+}
+
+.gameOver {
+    background-color: red;
+}
