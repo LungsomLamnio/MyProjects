@@ -1,0 +1,102 @@
+.container {
+    border: 2px solid black;
+    height: 600px;
+    width: 80%;
+    margin: 90px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    border-radius: 25px;
+}
+
+
+body {
+    background-color: #0f0e0f;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 70%;
+    padding: 7px;
+    border: 1px solid #0f0e0f;
+    border-radius: 5px;
+    background-color: #1f1e1f;
+}
+
+.inner {
+    border: 2px solid black;
+    height: 500px;
+    width: 330px;
+    margin: 100px;
+    background-color: #343A40;
+    opacity: 0.9;
+    position: absolute;
+    color: white;
+    
+}
+
+#box2 {
+    left: 900px;
+    bottom: 70px;
+    background-color: black;
+    
+}
+
+#box1 {
+    left: 100px;
+    bottom: 50px;
+    background-image: url(e\ commerce.png);
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    bottom: 180px;
+    border-radius: 50px;
+}
+
+body {
+    /* background-color: #212529; */
+}
+
+input {
+    margin: 12px;
+    align-items: center;
+}
+
+.btn {
+    margin: 12px;
+}
+
+button {
+    height: 30px;
+    width: 240px;
+    border-radius: 10px;
+    background-color:#0ba6ff;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:deepskyblue;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+#sm {
+    margin: 12px;
+    left: 2px;
+    text-align: left;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
